@@ -19,8 +19,8 @@ This implements the first user story:
 
 ```bash
 # 1. Create a virtual environment (recommended)
-python3 -m venv venv
-source venv/bin/activate      # on Windows: venv\Scripts\activate
+python -m venv venv
+venv\Scripts\activate
 
 # 2. Install dependencies
 pip install -r requirements.txt
